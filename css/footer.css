@@ -1,0 +1,104 @@
+.footer {
+    background-color: #fff;
+    padding: 52px 0 40px;
+}
+
+
+.footer__inner {
+    display: flex;
+    gap: 360px;
+    align-items: center;
+}
+
+.footer__descr {
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+}
+
+.footer__logo {
+    display: block;
+    max-width: 300px;
+    max-height: 58px;
+}
+
+.footer__copyright {
+    font-size: 12px;
+    color: #000;
+}
+
+.copyright__text {
+    margin-bottom: 4px;
+}
+
+.copyright__dev {}
+
+.copyright__dev-link {
+    color: #000;
+}
+
+.copyright__dev-link:hover {
+    color: #FF7020;
+}
+
+.footer__info {
+    display: flex;
+    gap: 126px;
+}
+
+.footer__order {
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.order__text {
+    font-size: 24px;
+    color: #000;
+}
+
+.order__info {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.order__img {
+    display: block;
+    max-width: 24px;
+}
+
+.order__link {
+    font-size: 16px;
+    color: #000;
+}
+
+.order__link:hover {
+    color: #FF7020;
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.social__text {
+    font-size: 24px;
+    color: #000;
+}
+
+.social__icon {
+    display: flex;
+    gap: 16px;
+}
+
+.social__icon img {
+    display: block;
+    max-width: 36px;
+}
+
+.icon__vk {}
+
+.icon__tg {}

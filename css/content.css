@@ -1,0 +1,9 @@
+.content {
+    padding-bottom: 100px;
+}
+
+
+.content__inner {
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,155 @@
+.basket {
+    align-self: flex-start;
+    border-radius: 18px;
+    background: #fff;
+    width: 300px;
+    padding: 24px 16px;
+    transform: translateY(72px);
+
+
+}
+
+.basket__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.basket__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f3;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+
+}
+
+.basket__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.basket__current {
+    display: flex;
+    align-items: center;
+    padding: 2px 16px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+    border-radius: 6px;
+    background: #f2f2f3;
+    width: 41px;
+    height: 20px;
+}
+
+.basket__items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 16px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.basket__empty {
+    display: block;
+}
+
+.disabled {
+    display: none;
+}
+
+.basket__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f3;
+    padding-bottom: 14px;
+}
+
+
+.basket__item-info {
+    display: flex;
+    gap: 6px;
+    font-size: 12px;
+}
+
+.basket__item-img {
+    display: block;
+    max-width: 64px;
+
+}
+
+.basket__item-name {
+    margin-bottom: 2px;
+    color: #000;
+}
+
+.basket__item-gram {
+    color: #b1b1b1;
+    margin-bottom: 6px;
+}
+
+.basket__item-price {
+    color: #000;
+}
+
+.basket__item-buttons {}
+
+
+
+.basket__button {
+    width: 31px;
+    border-radius: 12px;
+    padding: 9px 12px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.basket__button:hover {
+    background-color: #FF7020;
+}
+
+.basket__button:active {
+    background-color: #FFAB08;
+}
+
+.basket__item-current {}
+
+
+
+
+
+.basket__form {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #000;
+}
+
+.basket__order {
+    margin-bottom: 8px;
+}
+
+.basket__delivery {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}
+
+.basket__delivery-text {
+    font-size: 12px;
+    color: #000;
+    transform: translateY(2px);
+}

@@ -1,0 +1,37 @@
+.modal {
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transition: 0.3s all;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.modal.modal-active{
+    display: flex;
+    transition: 0.3s all;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.modal__main {
+    position: relative;
+    margin: auto;
+    cursor: default;
+    
+}
+
+
+
+.modal__close{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    cursor: pointer;
+}

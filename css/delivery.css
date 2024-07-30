@@ -1,0 +1,164 @@
+.delivery {
+    border-radius: 24px;
+    max-width: 684px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.delivery__inner {
+    display: flex;
+}
+
+.delivery__pic {
+    max-width: 342px;
+    background-color: #ffab08;
+    display: flex;
+    align-items: center;
+}
+
+.delivery__form {
+    max-width: 342px;
+    padding: 44px 24px 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.delivery__fieldset-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.delivery__input {
+    padding: 12px;
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #f2f2f3;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.delivery__radio-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+/* ////////////////////////// */
+
+.delivery__radio-label {
+    font-size: 12px;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.radio__input {
+
+    appearance: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #f2f2f3;
+    border-radius: 50%;
+}
+
+.radio__input::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 100%;
+    opacity: 0;
+}
+
+.radio__input:checked::after {
+    opacity: 1;
+}
+
+/* ////////////////////////// */
+
+
+
+
+
+
+
+
+
+.delivery__address {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    gap: 8px;
+}
+
+.address {
+    color: #000;
+    padding: 12px;
+    border: 1px solid #f2f2f3;
+    border-radius: 12px;
+    background-color: #fff;
+
+}
+
+.address__street {
+    width: 100%;
+    font-size: 12px;
+}
+
+.floorIntercom {
+    display: flex;
+    gap: 8px;
+}
+
+.address__floor {
+    max-width: 143px;
+}
+
+.address__Intercom {
+    max-width: 143px;
+}
+
+.delivery__check {
+    font-family: Nunito, sans-serif;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #ff7020;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.delivery__check:hover {
+    background-color: #ffab08;
+}
+
+.delivery__check:active {
+    background-color: #f86310;
+}

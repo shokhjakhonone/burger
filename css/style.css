@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "defaults.css";
+
+@import "header.css";
+
+@import "chooses.css";
+
+@import "content.css";
+@import "basket.css";
+@import "cards.css";
+
+@import "footer.css";
+
+
+@import "modal.css";
+@import "detail.css";
+@import "delivery.css";
